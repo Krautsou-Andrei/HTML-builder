@@ -33,3 +33,7 @@ const buildCSS = async (pathInputDirectory, pathOutputDirectory, outputFileName)
 };
 
 buildCSS(pathInputDirectory, pathOutputDirectory, CONSTANTS.OUTPUT_FILE);
+
+module.exports = {
+  buildCSS,
+};

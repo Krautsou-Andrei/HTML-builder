@@ -52,3 +52,7 @@ const copy = async (files, pathDirectory, pathDirectoryCopy) => {
 };
 
 copyDirectory(pathDirectory, pathDirectoryCopy);
+
+module.exports = {
+  copyDirectory,
+};
