@@ -29,6 +29,8 @@ process.on('error', function (error) {
   console.error(error);
 });
 
+process.on('SIGINT', exit);
+
 function exit() {
   console.log('bye');
   process.exit();
